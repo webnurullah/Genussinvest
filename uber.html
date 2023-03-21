@@ -29,39 +29,132 @@
 </head>
 <body>
     <div class="main-body">
-      <!-- header -->
-      <div class="header-section container-fluid">
-          <div class="dekstop-component">
-            <div class="header-logo text-center">
-              <img src="images/header-logo.jpg" alt="logo" srcset="">
+      <!-- ========================== header start ==============================-->
+      <div class="container-fluid">
+          <div class="header-section">
+            <div class="dekstop-component">
+              <div class="header-logo text-center">
+                <a href="uber.html"> <img src="images/header-logo.jpg" alt="logo" srcset=""></a>
+              </div>
+              <div class="bar-icon d-md-none">
+                  <i type="button" data-bs-toggle="offcanvas" data-bs-target="#menuoffcave" aria-controls="menuoffcave" class="fa-regular fa-bars"></i>
+              </div>
+
+              <div class="d-none d-md-block">
+                <div class="login-part d-flex justify-content-end">
+                  <div class="btn-one">
+                    <a href="register.html">
+                      <i class="fa-regular fa-pen-swirl"></i>
+                    <span>Neu Anmelden</span>
+                    </a>
+                  </div>
+                  <div class="log-mid"></div>
+                  <div class="login-btn">
+                    <a href="login.html">
+                      <i class="fa-regular fa-arrow-right-to-arc"></i>
+                      <span>Login</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              <nav class="dekstop-menu text-center d-none d-md-block">
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a class="active" aria-current="page" href="uber.html">Über uns</a></li>
+                  <li class="list-inline-item"><a class="" href="unser.html">Unser Angebot</a></li>
+                  <li class="list-inline-item"><a class="" href="referenzer.html">Referenzen</a></li>
+                  <li class="list-inline-item"><a class="" href="projekte.html">Projekte</a></li>
+                </ul>
+                <div class="menu-line m-auto"></div>
+              </nav>
+             
             </div>
-            <div class="login-part d-flex justify-content-end">
+            <div class="mobile-component d-md-none">
+          
+              <div class="mobile-menu-box"> 
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="menuoffcave" aria-labelledby="menuoffcaveLabel">
+
+                    <button type="button" class="btn text-end btn-cls text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                      <i class="fa-regular fa-xmark"></i>
+                    </button>
+                    <div class="mobile-header-logo text-center">
+                        <img src="images/header-logo.jpg" alt="logo" srcset="">
+                    </div>
+                    <div class="offcanvas-body">
+                      <nav class="mobile-menu text-center">
+                        <ul class="list-unstyled">
+                          <li><a class="active" aria-current="page" href="uber.html">Über uns</a></li>
+                          <li><a class="" href="unser.html">Unser Angebot</a></li>
+                          <li><a class="" href="referenzer.html">Referenzen</a></li>
+                          <li><a class="" href="projekte.html">Projekte</a></li>
+                        </ul>
+                      </nav>
+                    </div>
+
+                    <div class="fix-mobile-log in-menu-screen">
+                      <div class="container-fluid">
+                        <div class="d-flex justify-content-between ">
+                          <div class="login-part d-flex justify-content-end align-self-center">
+                            <div class="btn-one">
+                              <a href="register.html">
+                                <i class="fa-regular fa-pen-swirl"></i>
+                              <span>Neu Anmelden</span>
+                              </a>
+                            </div>
+                            <div class="log-mid"></div>
+                            <div class="login-btn">
+                              <a href="login.html">
+                                <i class="fa-regular fa-arrow-right-to-arc"></i>
+                                <span>Login</span>
+                              </a>
+                            </div>
+                          </div>
+                          <!-- message box -->
+                          <div class="meassage-box">
+                              <i class="fa-solid fa-comments-question"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+              
+
+
+              
+            </div>
+
+          </div>
+      </div>
+      <div class="fix-mobile-log in-screen d-md-none">
+        <div class="container-fluid ">
+          <div class="d-flex justify-content-between ">
+            <div class="login-part d-flex justify-content-end align-self-center">
               <div class="btn-one">
-                <a href="">
+                <a href="register.html">
                   <i class="fa-regular fa-pen-swirl"></i>
                 <span>Neu Anmelden</span>
                 </a>
               </div>
               <div class="log-mid"></div>
               <div class="login-btn">
-                <a href="">
+                <a href="login.html">
                   <i class="fa-regular fa-arrow-right-to-arc"></i>
                   <span>Login</span>
                 </a>
               </div>
             </div>
-            <nav class="dekstop-menu text-center">
-              <ul class="list-inline">
-                <li class="list-inline-item"><a class=" text-decoration-none active" aria-current="page" href="">Über uns</a></li>
-                <li class="list-inline-item"><a class=" text-decoration-none "href="">Unser Angebot</a></li>
-                <li class="list-inline-item"><a class=" text-decoration-none "href="">Referenzen</a></li>
-                <li class="list-inline-item"><a class=" text-decoration-none "href="">Projekte</a></li>
-              </ul>
-            </nav>
-            <div class="menu-line m-auto"></div>
+             <!-- message box -->
+            <div class="meassage-box">
+                <i class="fa-solid fa-comments-question"></i>
+            </div>
           </div>
+        </div>
       </div>
+      <!-- ========================== header End ========================= -->
 
+      
       <div class="heading text-center">
         <img src="images/leef.jpg" alt="" class="leef">
         <h1 class="title" >Über uns</h1>
@@ -69,6 +162,9 @@
         <p class="sub-title">In 3 Unternehmern verbinden sich:</p>
         <p class="pera">Innovation und Trendgespür mit, Marktüberblick/Praxiswissen und die Kenntnis zu betrieblichen und rechtlichen Voraussetzungen zu einem fruchtbarem Ganzen.</p>
       </div>
+
+
+  <div class="d-none">
 
       <div class="container">
         <div class="profile-box d-flex">
@@ -253,7 +349,7 @@
 
     </div>
 
-
+</div>
      <!-- jquery -->
     <script src="js/jquery.min.js"></script>
 

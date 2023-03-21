@@ -1,0 +1,111 @@
+
+.container-fluid{
+    padding-right: 36px;
+    padding-left: 36px;
+}
+
+@media (min-width: 768px) {
+    .container-fluid{
+        max-width: 700px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+@media (min-width: 992px) {
+    .container-fluid{
+        max-width: 900px;
+       
+    }
+}
+@media (min-width: 1200px) {
+    .container-fluid{
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container-fluid{
+        max-width: 1340px;
+    }
+}
+@media (min-width: 1600px) {
+    .container-fluid{
+        max-width: 1440px;
+    }
+}
+
+
+
+
+
+
+/* XX-Large devices (larger desktops, 1800px and up) */
+/* r18 */
+@media (max-width: 1800px) { 
+   
+}
+
+
+/* XX-Large devices (larger desktops, 1600px and up) */
+/* r16 */
+@media (max-width: 1600px) { 
+    .list-inline-item:not(:last-child){
+        margin-right: 90px;
+    }
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+/* r14 */
+@media (max-width: 1400px) { 
+    .list-inline-item:not(:last-child){
+        margin-right: 80px;
+    }
+    .header-logo img {
+        margin-bottom: 70px;
+        width: 180px;
+    }
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+/* r12 */
+@media (max-width: 1200px) { 
+    .list-inline-item:not(:last-child){
+        margin-right: 60px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+/* r9 */
+@media (max-width: 992px) { 
+    .list-inline-item:not(:last-child){
+        margin-right: 50px;
+    }
+    .dekstop-menu ul li a{
+        font-size: 18px;
+    }
+    .header-logo img {
+        margin-bottom: 50px;
+        width: 152px;
+    }
+    .login-part .login-btn {
+        margin-left: 22px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+/* r7 */
+@media (max-width: 768px) { 
+    .list-inline-item:not(:last-child){
+        margin-right: 40px;
+    }
+
+   
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+/* r5 */
+@media (max-width: 576px) { 
+    
+ }
+ 

@@ -1,20 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Patua+One&display=swap');
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    color: #151515;
+}
+/* =============== bootstrap custom start =============== */
+.btn-check:focus + .btn, .btn:focus{
+    box-shadow: none !important;
+}
+.offcanvas-end{
+    width: 100% !important;
+    border-left: none !important;
+}
+
+/*  =============== bootstrap custom end  ===============*/
+
 .dekstop-component{
     position: relative;
 }
-.login-part{
+.dekstop-component .login-part{
     position: absolute;
     right: 0;
     top: 0;
-}
-.log-mid{
-    width: 1px;
-    height: 24px;
-    background-color: #ece9df;
-}
-.menu-line{
-    background-color: #c7db83;
-    height: 1px;
-    max-width: 1640px;
 }
 .leef{
     width: 32px;
@@ -28,3 +35,138 @@
 .footer-section{
     padding-bottom: 58px;
 }
+/* ======================= headercss ==================== */
+.header-section{
+    padding: 30px 0px;
+}
+.header-logo img{
+    margin-bottom: 70px;
+    width: 180px;
+}
+.login-part{
+ 
+}
+.login-part i{
+    color: #4a6d31;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.login-part a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #151515;
+    display: flex;
+    align-items: center;
+}
+.login-part .login-btn{
+    margin-left: 30px;
+}
+.log-mid{
+    width: 1px;
+    height: 24px;
+    background-color: #ece9df;
+}
+.login-part .btn-one{
+    margin-right: 22px;
+}
+.dekstop-menu ul li a,
+.mobile-menu ul li a{
+    color: #151515;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.dekstop-menu ul li a.active,
+.mobile-menu ul li a.active{
+    color: #A6C44F;;
+}
+.menu-line{
+    background-color: #c7db83;
+    height: 1px;
+    width: 100%;
+}
+.list-inline-item:not(:last-child){
+    margin-right: 115px;
+}
+
+
+ /* ============ mobile menu Design =============== */
+
+ .bar-icon .fa-bars{
+    font-size: 18px;
+}
+.header-section{
+    padding: 20px 0px 0px;
+}
+.bar-icon{
+    position: absolute;
+    top: -10px;
+    right: 0px;
+}
+.bar-icon .fa-bars{
+    color: #4A6D31;
+}
+.mobile-menu-box{
+    position: relative;
+}
+.mobile-menu-box .btn-cls{
+    position: absolute;
+    right: 36px;
+    top: 11px;
+
+}
+.mobile-menu-box .btn-cls{
+    font-size: 18px;
+    color: #4A6D31 ;
+}
+.mobile-header-logo{
+    padding-top: 20px;
+    padding-bottom: 124px;
+}
+.mobile-menu ul li{
+    margin-bottom: 80px;
+}
+.mobile-menu ul li::last-child{
+    margin-bottom: 0px;
+}
+
+ /* ============ mobile menu Design end =============== */
+
+/* ========== fix mobile log ======== */
+.fix-mobile-log{
+    width: 100%;
+    background-color: #fff;
+    height: 60px;
+}
+.in-screen{
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0px;
+}
+.in-menu-screen{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0px;
+}
+.fix-mobile-log .meassage-box{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 10px 20px 0 rgba(74, 109, 49, 0.3);
+    border: solid 1px #ece9df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 18px;
+    cursor: pointer;
+}
+.fix-mobile-log i{
+    color: #4A6D31;
+    font-size: 27px;
+}
+
+/* ====================== uberpage ===================== */
