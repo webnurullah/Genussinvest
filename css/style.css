@@ -1,0 +1,30 @@
+.dekstop-component{
+    position: relative;
+}
+.login-part{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.log-mid{
+    width: 1px;
+    height: 24px;
+    background-color: #ece9df;
+}
+.menu-line{
+    background-color: #c7db83;
+    height: 1px;
+    max-width: 1640px;
+}
+.leef{
+    width: 32px;
+}
+.footer-section .arrow{
+  max-width: 1640px;
+  height: 1px;
+  margin-bottom: 25px;
+  background-color: #ece9df;
+}
+.footer-section{
+    padding-bottom: 58px;
+}

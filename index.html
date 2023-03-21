@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kidscamps</title>
+    <title></title>
 
     
   <!-- css -->
@@ -14,6 +14,12 @@
   
   <!-- Fontawesome icon -->
   <script src="https://kit.fontawesome.com/fcea059855.js" crossorigin="anonymous"></script>
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+
+
   <!-- custome css -->
   <link rel="stylesheet" href="css/style.css">
   <!-- Responsive css -->
@@ -22,13 +28,239 @@
 
 </head>
 <body>
-    <div class="wrapper">
+    <div class="main-body">
+      <!-- header -->
+      <div class="header-section container-fluid">
+          <div class="dekstop-component">
+            <div class="header-logo text-center">
+              <img src="images/header-logo.jpg" alt="logo" srcset="">
+            </div>
+            <div class="login-part d-flex justify-content-end">
+              <div class="btn-one">
+                <a href="">
+                  <i class="fa-regular fa-pen-swirl"></i>
+                <span>Neu Anmelden</span>
+                </a>
+              </div>
+              <div class="log-mid"></div>
+              <div class="login-btn">
+                <a href="">
+                  <i class="fa-regular fa-arrow-right-to-arc"></i>
+                  <span>Login</span>
+                </a>
+              </div>
+            </div>
+            <nav class="dekstop-menu text-center">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a class=" text-decoration-none active" aria-current="page" href="">Über uns</a></li>
+                <li class="list-inline-item"><a class=" text-decoration-none "href="">Unser Angebot</a></li>
+                <li class="list-inline-item"><a class=" text-decoration-none "href="">Referenzen</a></li>
+                <li class="list-inline-item"><a class=" text-decoration-none "href="">Projekte</a></li>
+              </ul>
+            </nav>
+            <div class="menu-line m-auto"></div>
+          </div>
+      </div>
+
+      <div class="heading text-center">
+        <img src="images/leef.jpg" alt="" class="leef">
+        <h1 class="title" >Über uns</h1>
+        <span class="line" ></span>
+        <p class="sub-title">In 3 Unternehmern verbinden sich:</p>
+        <p class="pera">Innovation und Trendgespür mit, Marktüberblick/Praxiswissen und die Kenntnis zu betrieblichen und rechtlichen Voraussetzungen zu einem fruchtbarem Ganzen.</p>
+      </div>
+
+      <div class="container">
+        <div class="profile-box d-flex">
+          <div class="img">
+            <img src="images/person-1.jpg" alt="">
+          </div>
+          <div class="content d-flex flex-column justify-content-center">
+            <h5 class="name" >Xaver Diermayr</h5>
+            <p class="info" >Bio-Landwirt, Betriebswirtschafter und Finanzexperte ist seit Jahrzehnten mit dem Thema nachhaltiger Investitionen befasst. Die Stärkung der Landwirtschaft und der sichere Fortbestand durch ein loyales und aktives Kundenumfeld sind seine zentralen Anliegen. Seine betriebswirtschaftliche Kompetenz sorgt für eine profunde, bodenständige Struktur aller umgesetzten Maßnahmen.</p>
+            <div class="contact-details">
+              <div class="email">
+                <i class="fa-regular fa-envelope"></i>
+                <span>E-Mail</span>
+              </div>
+              <div class="phone">
+                <i class="fa-regular fa-phone">0174 9908876</i>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="heading">
+          <h2>Unsere Vision</h2>
+          <p class="sub-title" >Lorem ipsum dolor sit amet</p>
+          <span class="line" ></span>
+        </div>
+        <div class="pera-content">
+          <p>Wir begeistern uns für eine Welt, in der wir in eine persönliche, sich gegenseitig fördernde und wertschätzende Beziehung treten und gemeinsam aktiv und verantwortungsvoll unser Umfeld gestalten.</p>
+          <p>Wir sind überzeugt, dass die finanzielle Beteiligung von Bürgern an landwirtschaftlichen und handwerklichen Betrieben die Verbundenheit zwischen Anlegern und Betrieben stärkt. Und zwar in einer anderen Qualität, als dies in einer reinen Kunden- und Nachbarschaftsbeziehung möglich wäre. So erfahren sich alle Beteiligten als wirksame Gestalter. Ein Modell, von dem jeder profitiert. Eine Methode, die Wertschätzung und Verantwortung– für das Unternehmen und die Produkte, im Miteinander, für gute Lebensmittel, die Natur und die nachkommenden Generationen – aufleben lässt und erlebbar macht.</p>
+          <p>Wir begleiten Betriebe, die ihr Umfeld beteiligen möchten und stellen die nötigen Methoden und das Wissen zu Verfügung, diese Beteiligungen professionell und dennoch unbürokratisch umzusetzen. Von der Planung über die vertraglichen Grundlagen bis zur einfachen Verwaltung.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="heading">
+          <h3>Unsere Vision</h3>
+          <p class="sub-title" >Lorem ipsum dolor sit amet</p>
+          <span class="line" ></span>
+        </div>
+        <div class="pera-content">
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et e.</p>
+        </div>
+      </div>
+
+      <div id="logo-slider"  class="owl-carousel owl-theme">
+        <div class="card">
+          <p>GENUSSINVEST</p>
+        </div>
+        <div class="card">
+          <p>GENUSSINVEST</p>
+        </div>
+        <div class="card">
+          <p>GENUSSINVEST</p>
+        </div>
+        <div class="card">
+          <p>GENUSSINVEST</p>
+        </div>
+        <div class="card">
+          <p>GENUSSINVEST</p>
+        </div>
+        <div class="card">
+          <p>GENUSSINVEST</p>
+        </div>
+        <div class="card">
+          <p>GENUSSINVEST</p>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="heading">
+          <h4>Presse</h4>
+          <p class="sub-title" >Lorem ipsum dolor sit amet</p>
+          <span class="line" ></span>
+        </div>
+        <div class="pera-content">
+          <p>Wir begeistern uns für eine Welt, in der wir in eine persönliche, sich gegenseitig fördernde und wertschätzende Beziehung treten und gemeinsam aktiv und verantwortungsvoll unser Umfeld gestalten.</p>
+          <p>Wir sind überzeugt, dass die finanzielle Beteiligung von Bürgern an landwirtschaftlichen und handwerklichen Betrieben die Verbundenheit zwischen Anlegern und Betrieben stärkt. Und zwar in einer anderen Qualität, als dies in einer reinen Kunden- und Nachbarschaftsbeziehung möglich wäre. So erfahren sich alle Beteiligten als wirksame Gestalter. Ein Modell, von dem jeder profitiert. Eine Methode, die Wertschätzung und Verantwortung– für das Unternehmen und die Produkte, im Miteinander, für gute Lebensmittel, die Natur und die nachkommenden Generationen – aufleben lässt und erlebbar macht.</p>
+          <p>Wir begleiten Betriebe, die ihr Umfeld beteiligen möchten und stellen die nötigen Methoden und das Wissen zu Verfügung, diese Beteiligungen professionell und dennoch unbürokratisch umzusetzen. Von der Planung über die vertraglichen Grundlagen bis zur einfachen Verwaltung.</p>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col">
+            <div class="link" >
+              <a href="">
+                <span>Weiterführende Links</span>
+                <i class="fa-regular fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="link" >
+              <a href="">
+                <span>Weiterführende Links</span>
+                <i class="fa-regular fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="link" >
+              <a href="">
+                <span>Weiterführende Links</span>
+                <i class="fa-regular fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="link" >
+              <a href="">
+                <span>Weiterführende Links</span>
+                <i class="fa-regular fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="link" >
+              <a href="">
+                <span>Weiterführende Links</span>
+                <i class="fa-regular fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="link" >
+              <a href="">
+                <span>Weiterführende Links</span>
+                <i class="fa-regular fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="link" >
+              <a href="">
+                <span>Weiterführende Links</span>
+                <i class="fa-regular fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="link" >
+              <a href="">
+                <span>Weiterführende Links</span>
+                <i class="fa-regular fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="link" >
+              <a href="">
+                <span>Weiterführende Links</span>
+                <i class="fa-regular fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="footer-section container-fluid">
+        <div class="arrow"></div>
+        <div class="logo" >
+          <span>GENUSSINVEST</span>
+        </div>
+        <div class="footer-nav">
+          <ul class="list-inline" >
+            <li class="list-inline-item" >© 2023 All rights reserved  </li>
+            <span>|</span>
+            <li class="list-inline-item" ><a href="">Impressum</a></li>
+            <span>|</span>
+            <li class="list-inline-item" ><a href="">Datenschutzerklärung </a></li>
+            <span>|</span>
+            <li class="list-inline-item" ><a href=""> Nutzungsbedingungen</a></li>
+          </ul>
+        </div>
+      </div>
 
     </div>
 
 
      <!-- jquery -->
     <script src="js/jquery.min.js"></script>
+
+   <!-- owl carosuer -->
+   <script src="owlcarousel/owl.carousel.min.js"></script>
+ 
+
     <!-- bootstrap js -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <!-- custom js -->
