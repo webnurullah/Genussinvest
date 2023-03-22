@@ -1,32 +1,28 @@
 $(document).ready(function(){
     $('#logo-slider').owlCarousel({
         loop:true,
-        margin:45,
+        margin:18,
         nav:true,
-        dots: true,   
+        dots: false,
+        autoWidth:true, 
+        navText : ["<i class='fa-regular fa-arrow-left-long'></i>","<i class='fa-regular fa-arrow-right-long'></i>"],  
         responsiveClass:true,
         responsive:{
             0:{
-                autoWidth:true,
-                dots: true,   
                 nav:false,
             },
             768:{
-                autoWidth:true,
                 nav:false,
-                dots: true,   
             },
             992:{
-                items:3,
-                loop:false,
-                nav:false,
-                dots: true,   
+                
             },
             1400:{
-                items:6,
-                loop:false,
-                nav:true,
-                dots: true,   
+                
+            },
+            1600:{
+               
+               
             }
         }
     })
