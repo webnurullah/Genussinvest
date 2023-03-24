@@ -28,51 +28,52 @@ $(document).ready(function(){
     })
     $('#gallery-slider').owlCarousel({
         loop:true,
-        margin:45,
-        nav:true,
-        dots: true,   
+        margin:24,
+        nav:false,
+        dots: false,   
         responsiveClass:true,
         responsive:{
             0:{
                 autoWidth:true,
-                dots: true,   
-                nav:false,
+                margin:20,
             },
             768:{
+                items:1,
                 autoWidth:true,
-                nav:false,
-                dots: true,   
+                margin:20,
             },
             992:{
                 items:2,
                 loop:false,
-                nav:false,
-                dots: true,   
             }
         }
     })
     $('#refer-slider').owlCarousel({
-        loop:true,
-        margin:45,
+        loop:false,
+        margin:46,
         nav:true,
-        dots: true,   
+        dots: false,  
+        navText : ["<i class='fa-regular fa-arrow-left-long'></i>","<i class='fa-regular fa-arrow-right-long'></i>"],   
         responsiveClass:true,
         responsive:{
             0:{
                 autoWidth:true,
-                dots: true,   
                 nav:false,
+                margin:20,
             },
             768:{
-                autoWidth:true,
+                items:2,
                 nav:false,
-                dots: true,   
+                margin:20,
             },
             992:{
-                items:3,
-                loop:false,
+                items:2,
                 nav:false,
-                dots: true,   
+                margin:30,
+            },
+            1400:{
+                items:3,
+                nav:true,
             }
         }
     })

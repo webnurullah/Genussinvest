@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
 
-    
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+
+
   <!-- css -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <!-- normalize css -->
   <link rel="stylesheet" href="css/normalize.css">
-  
+
   <!-- Fontawesome icon -->
   <script src="https://kit.fontawesome.com/fcea059855.js" crossorigin="anonymous"></script>
 
-    <!-- owl carousel -->
-    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
 
 
   <!-- custome css -->
@@ -27,71 +28,178 @@
 
 
 </head>
+
 <body>
-    <div class="main-body">
-        <!-- header -->
-        <div class="header-section container-fluid">
-            <div class="dekstop-component">
-              <div class="header-logo text-center">
+  <div class="main-body">
+
+    <!-- ========================== header start ==============================-->
+    <div class="container-fluid">
+      <div class="header-section">
+        <div class="dekstop-component">
+          <div class="header-logo text-center">
+            <a href="uber.html"> <img src="images/header-logo.jpg" alt="logo" srcset=""></a>
+          </div>
+          <div class="bar-icon d-md-none">
+            <i type="button" data-bs-toggle="offcanvas" data-bs-target="#menuoffcave" aria-controls="menuoffcave"
+              class="fa-regular fa-bars"></i>
+          </div>
+
+          <div class="d-none d-md-block">
+            <div class="login-part d-flex justify-content-end">
+              <div class="btn-one">
+                <a href="register.html">
+                  <i class="fa-regular fa-pen-swirl"></i>
+                  <span>Neu Anmelden</span>
+                </a>
+              </div>
+              <div class="log-mid"></div>
+              <div class="login-btn">
+                <a href="login.html">
+                  <i class="fa-regular fa-arrow-right-to-arc"></i>
+                  <span>Login</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <nav class="dekstop-menu text-center d-none d-md-block">
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="" aria-current="page" href="uber.html">Über uns</a></li>
+              <li class="list-inline-item"><a class="" href="unser.html">Unser Angebot</a></li>
+              <li class="list-inline-item"><a class="" href="referenzer.html">Referenzen</a></li>
+              <li class="list-inline-item"><a class="active" href="projektelist.html">Projekte</a></li>
+            </ul>
+            <div class="menu-line m-auto"></div>
+          </nav>
+
+        </div>
+        <div class="mobile-component d-md-none">
+          <div class="mobile-menu-box">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="menuoffcave" aria-labelledby="menuoffcaveLabel">
+
+              <button type="button" class="btn text-end btn-cls text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close">
+                <i class="fa-regular fa-xmark"></i>
+              </button>
+              <div class="mobile-header-logo text-center">
                 <img src="images/header-logo.jpg" alt="logo" srcset="">
               </div>
-              <div class="login-part d-flex justify-content-end">
-                <div class="btn-one">
-                  <a href="">
-                    <i class="fa-regular fa-pen-swirl"></i>
-                  <span>Neu Anmelden</span>
-                  </a>
-                </div>
-                <div class="log-mid"></div>
-                <div class="login-btn">
-                  <a href="">
-                    <i class="fa-regular fa-arrow-right-to-arc"></i>
-                    <span>Login</span>
-                  </a>
+              <div class="offcanvas-body">
+                <nav class="mobile-menu text-center">
+                  <ul class="list-unstyled">
+                    <li><a class="active" aria-current="page" href="uber.html">Über uns</a></li>
+                    <li><a class="" href="unser.html">Unser Angebot</a></li>
+                    <li><a class="" href="referenzer.html">Referenzen</a></li>
+                    <li><a class="" href="projektelist.html">Projekte</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="fix-mobile-log in-menu-screen">
+                <div class="container-fluid">
+                  <div class="d-flex justify-content-between ">
+                    <div class="login-part d-flex justify-content-end align-self-center">
+                      <div class="btn-one">
+                        <a href="register.html">
+                          <i class="fa-regular fa-pen-swirl"></i>
+                          <span>Neu Anmelden</span>
+                        </a>
+                      </div>
+                      <div class="log-mid"></div>
+                      <div class="login-btn">
+                        <a href="login.html">
+                          <i class="fa-regular fa-arrow-right-to-arc"></i>
+                          <span>Login</span>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- message box -->
+                    <div class="meassage-box">
+                      <i class="fa-solid fa-comments-question"></i>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <nav class="dekstop-menu text-center">
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a class=" text-decoration-none active" aria-current="page" href="">Über uns</a></li>
-                  <li class="list-inline-item"><a class=" text-decoration-none "href="">Unser Angebot</a></li>
-                  <li class="list-inline-item"><a class=" text-decoration-none "href="">Referenzen</a></li>
-                  <li class="list-inline-item"><a class=" text-decoration-none "href="">Projekte</a></li>
-                </ul>
-              </nav>
-              <div class="menu-line m-auto"></div>
             </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <div class="fix-mobile-log in-screen d-md-none">
+      <div class="container-fluid ">
+        <div class="d-flex justify-content-between ">
+          <div class="login-part d-flex justify-content-end align-self-center">
+            <div class="btn-one">
+              <a href="register.html">
+                <i class="fa-regular fa-pen-swirl"></i>
+                <span>Neu Anmelden</span>
+              </a>
+            </div>
+            <div class="log-mid"></div>
+            <div class="login-btn">
+              <a href="login.html">
+                <i class="fa-regular fa-arrow-right-to-arc"></i>
+                <span>Login</span>
+              </a>
+            </div>
+          </div>
+          <!-- message box -->
+          <div class="meassage-box">
+            <i class="fa-solid fa-comments-question"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- ========================== header End ========================= -->
 
+      <!-- =============== page inner start ========== -->
+      <div class="page-inner-two">
 
-        <div class="top-banner">
-            <img class="img-fluid" src="images/banner-top.jpg" alt="">
-            <div class="card" style="width: 18rem;">
+        <div class="heading d-md-none pb-4">
+          <img src="images/leef.jpg" alt="" class="leef">
+          <h1 class="title">Klimafreundliche Landwirtschaft</h1>
+        </div>
+        <div class="container-xxl">
+          <div class="top-banner">
+            <img class="img-fluid d-none d-md-block" src="images/banner-top.jpg" alt="">
+            <img class="w-100 d-md-none" src="images/banner-top-2.png" alt="">
+
+            <div class="d-md-none mobile-timer">
+              <div class="timer d-flex align-items-center justify-content-start">
+                <i class="fa-regular fa-clock-rotate-left"></i>
+                <span>noch 5 Tage</span>
+              </div>
+            </div>
+           
+            
+            <div class="card-info d-none d-md-block" >
                 <span class="up-title" >Initiatior</span>
                 <h6>WERNER HAASE</h6>
                 <span class="address" >Sandbichl 2 + 4 <br>
                     83730 Fischbachau, DE</span>
             </div>
+          </div>
         </div>
 
-        <div class="heading text-center">
-            <img src="images/leef.jpg" alt="" class="leef">
-            <h1 class="title" >Über uns</h1>
-            <span class="line" ></span>
-            <p class="sub-title">Klimafreundliche Landwirtschaft</p>
-        </div>
 
+       
+        <div class="container container-xxl">
+          <div class="project-details">
         
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-8">
+            <div class="heading d-none d-md-block">
+              <img src="images/leef.jpg" alt="" class="leef">
+              <h1 class="title">Klimafreundliche Landwirtschaft</h1>
+            </div>
+        
+            <div class="row g-custom2">
+                <div class="col-12 col-md-6 col-lg-7 col-xl-8">
                     <!-- ============= left section =========-->
                     <div class="details-content">
-                        <h2>Beschreibung des Vorhabens</h2>
+                        <h3>Beschreibung des Vorhabens</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                        <h2>Beschreibung des Genussrechts</h2>
+                        <h3>Beschreibung des Genussrechts</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                     </div>
-                    <h2>Impressionen</h2>
+                    <h3>Impressionen</h3>
                     <div id="gallery-slider" class="owl-carousel owl-theme">
                         <div class="img-box">
                             <img src="images/banner-1.jpg" alt="">
@@ -101,21 +209,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4">
                     <!-- =========== right section ========= -->
-                    <div class="timer">
+                    <div class="d-none d-md-block">
+                      <div class="timer d-flex align-items-center justify-content-end">
                         <i class="fa-regular fa-clock-rotate-left"></i>
                         <span>noch 5 Tage</span>
+                      </div>
                     </div>
-                    <div class="card">
+                    <div class="card-info  d-md-none" >
+                      <span class="up-title" >Initiatior</span>
+                      <h6>WERNER HAASE</h6>
+                      <span class="address" >Sandbichl 2 + 4 <br>
+                          83730 Fischbachau, DE</span>
+                    </div>
+                    <div class="card c-one">
                        <div class="title">
                             <span>Konditionen</span>
-                            <h4>Genussrecht</h4>
+                            <h1>Genussrecht</h1>
                        </div>
                        <ul class="list-unstyled" >
-                        <li class="d-flex justify-content-between" >
-                            <span class="head-left">Genussrecht</span>
-                            <span class="head-right">40.000 €</span>
+                        <li class="d-flex justify-content-between align-items-center c-title" >
+                            <span class="left">Genussrecht</span>
+                            <span class="right">40.000 €</span>
                         </li>
                         <li class="d-flex justify-content-between" >
                             <span class="left">Stückelung</span>
@@ -137,54 +253,59 @@
                        </ul>
                     </div>
 
-                    <div class="card">
+                    <div class="card c-two">
                         <div class="title">
                             <span>Verfügbare Genussrechte</span>
-                            <h4>Noch 16 von 48</h4>
+                            <h1>Noch 16 von 48</h1>
                        </div>
                        <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
                       <span class="prog-persent" > 33%</span>
                     </div>
-                    <button class="btn btn-primary" >weitere Informationen beim Anbieter</button>
+                    <a class="btn" href="">
+                      <span>weitere Informationen beim Anbieter</span> 
+                      <i class="fa-regular fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
+          </div>
         </div>
+        
 
 
-          <!-- footer -->
-       <div class="footer-section container-fluid">
-        <div class="arrow"></div>
-        <div class="logo" >
-          <span>GENUSSINVEST</span>
-        </div>
-        <div class="footer-nav">
-          <ul class="list-inline" >
-            <li class="list-inline-item" >© 2023 All rights reserved  </li>
-            <span>|</span>
-            <li class="list-inline-item" ><a href="">Impressum</a></li>
-            <span>|</span>
-            <li class="list-inline-item" ><a href="">Datenschutzerklärung </a></li>
-            <span>|</span>
-            <li class="list-inline-item" ><a href=""> Nutzungsbedingungen</a></li>
-          </ul>
-        </div>
       </div>
+      <!-- =============== page inner end ========== -->
 
-    </div>
+
+      <!-- =====================  footer start ================= -->
+      <div class="footer-section container-fluid">
+        <img class="footer-logo" src="images/logo-slider.jpg" alt="">
+        <ul class="footer-nav list-inline">
+          <li class="list-inline-item d-none d-md-inline-block">© 2023 All rights reserved </li>
+          <span class="d-none d-md-inline-block">|</span>
+          <li class="list-inline-item"><a href="">Impressum</a></li>
+          <span>|</span>
+          <li class="list-inline-item"><a href="">Datenschutzerklärung </a></li>
+          <span>|</span>
+          <li class="list-inline-item"><a href=""> Nutzungsbedingungen</a></li>
+        </ul>
+      </div>
+      <!-- =====================  footer end =================== -->
+  </div>
 
 
-     <!-- jquery -->
-    <script src="js/jquery.min.js"></script>
+  <!-- jquery -->
+  <script src="js/jquery.min.js"></script>
 
-   <!-- owl carosuer -->
-   <script src="owlcarousel/owl.carousel.min.js"></script>
- 
+  <!-- owl carosuer -->
+  <script src="owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- custom js -->
-    <script src="js/script.js"></script>
+
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- custom js -->
+  <script src="js/script.js"></script>
 </body>
+
 </html>

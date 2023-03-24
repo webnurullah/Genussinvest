@@ -21,6 +21,22 @@ a:hover{
     color: #151515;
     text-decoration: none;
 }
+span{
+    font-size: 18px;
+    line-height: 24px;
+   
+}
+h1, .h1
+{
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0;
+}
+h3, .h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Patua One', cursive;
+}
 /*  =============== bootstrap custom end  ===============*/
 
 .dekstop-component{
@@ -34,14 +50,22 @@ a:hover{
 .leef{
     width: 32px;
 }
-.footer-section .arrow{
-  max-width: 1640px;
-  height: 1px;
-  margin-bottom: 25px;
-  background-color: #ece9df;
-}
 .footer-section{
-    padding-bottom: 58px;
+    padding-bottom: 60px;
+    border-top: 1px solid #ece9df;
+    padding-top: 30px;
+}
+.footer-section .footer-logo{
+    margin-right: 60px;
+    display: inline-block;
+}
+.footer-section .footer-nav{
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.footer-section .list-inline-item:not(:last-child){
+    margin-right: 0px;
 }
 /* ======================= headercss ==================== */
 .header-section{
@@ -93,7 +117,7 @@ a:hover{
     height: 1px;
     width: 100%;
 }
-.list-inline-item:not(:last-child){
+.header-section .list-inline-item:not(:last-child){
     margin-right: 115px;
 }
 
@@ -145,6 +169,7 @@ a:hover{
     width: 100%;
     background-color: #fff;
     height: 60px;
+    z-index: 99;
 }
 .in-screen{
     position: fixed;
@@ -210,9 +235,10 @@ a:hover{
 /*  ===================== page loute ================== */
 .page-inner{
     padding:120px 0px;
-    line-height: 27px;
 }
-
+.page-inner-two{
+    padding:60px 0px 120px;
+}
 /* ====================== uberpage ===================== */
 .profile-section{
    padding-top: 105px;
@@ -270,17 +296,23 @@ a:hover{
 #logo-slider.owl-theme .owl-nav [class*=owl-]:hover{
     color: #151515 !important;
 }
-#logo-slider.owl-theme .owl-nav [class*=owl-]:hover{
+#refer-slider.owl-theme .owl-nav [class*=owl-]:hover{
+    color: #000 !important;
+}
+#logo-slider.owl-theme .owl-nav [class*=owl-]:hover,
+#refer-slider.owl-theme .owl-nav [class*=owl-]:hover{
     background-color: transparent !important;
 }
-#logo-slider.owl-theme button.owl-prev {
+#logo-slider.owl-theme button.owl-prev, 
+#refer-slider.owl-theme button.owl-prev {
     position: absolute;
     top: 50%;
     left: -64px;
     transform: translate(-50%, -50%);
     font-size: 18px;
 }
-#logo-slider.owl-theme button.owl-next {
+#logo-slider.owl-theme button.owl-next, 
+#refer-slider.owl-theme button.owl-next {
     position: absolute;
     top: 50%;
     right: -83px;
@@ -299,6 +331,352 @@ a:hover{
     display: inline-block;
     margin-right: 10px;
 }
-/* ====================== uberpage ===================== */
-/* ====================== uberpage ===================== */
-/* ====================== uberpage ===================== */
+/* ====================== uberpage end  ===================== */
+/* ====================== project list start ===================== */
+.project-list-part{
+    padding-top: 50px;
+}
+.project-list-part .card,
+#refer-slider .card{
+    border-radius: 8px;
+    border: solid 1px #ece9df;
+    text-align: center;
+}
+.project-list-part .card-title,
+#refer-slider .card-title{
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 12px;
+    font-family: 'Patua One', cursive;
+}
+.project-list-part .card-subtitle,
+#refer-slider .card-subtitle{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: bold;
+}
+#refer-slider .card-subtitle{
+    color: #A4C252;
+}
+#refer-slider {
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.slider-line{
+    background-color: #ece9df;
+    height: 1px;
+}
+.project-list-part .card-body{
+    padding: 30px 30px 110px 30px;
+}
+#refer-slider .card-body{
+    padding: 30px 40px 44px;
+}
+.project-list-part .card-text,
+#refer-slider .card-text{
+    padding-top: 29px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+#refer-slider .card-text{
+    margin-bottom: 30px;
+}
+
+#refer-slider .refer-btn{
+    padding: 18px 24px;
+    border-radius: 42px;
+    border: solid 1px #707070;
+    background-color: #547738;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+}
+#refer-slider .refer-btn i{
+    display: inline-block;
+    margin-left: 10px;
+}
+.project-list-part .btn-box .card-link{
+    background: #4A6D31;
+    box-shadow: 0px 10px 20px #4A6D3165;
+    border-radius: 29px;
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #fff;
+}
+.price-box .number{
+    font-size: 14px;
+    line-height: 19px;
+}
+.price-box .price{
+    font-size: 30px;
+    line-height: 40px;
+    color: #4a6d31;
+}
+.link-part{
+    position: relative;
+    right: 0;
+    left: 0;
+    margin:auto;
+}
+.link-part .btn-box{
+    opacity: 0;
+    transition: all .3s;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin:auto;
+    top: 30px;
+}
+.project-list-part .card:hover .link-part .btn-box{
+    opacity: 1;
+    top: 15px;
+}
+.link-part .price-box{
+    transition: all .3s;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 1;
+    top: 0;
+}
+.project-list-part .card:hover .link-part .price-box{
+    top: 30px;
+    opacity: 0;
+}
+/* ====================== project list end  ===================== */
+/* ====================== project page start  ===================== */
+.top-banner img{
+    border-radius: 8px;
+    border: solid 1px rgba(0, 0, 0, 0);
+}
+.top-banner{
+    position: relative;
+}
+.card-info{
+    padding: 24px 30px 20px 30px;
+    border-radius: 8px;
+    border: solid 1px #ece9df;
+    text-align: center;
+    width: 398px;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: #fff;
+}
+.top-banner .card-info{
+    position: absolute;
+    right: 16px;
+    bottom: -30px;
+}
+.card-info .up-title{
+    font-weight: bold;
+    color: #a6c44f;
+}
+.card-info h6{
+    margin-top: 14px;
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Patua One', cursive;
+}
+.project-details .heading{
+    padding: 90px 0px 60px;
+}
+.mobile-timer .timer{
+    margin-top: -30px;
+    position: absolute;
+    bottom: 20px;
+    left: 36px;
+    color: #fff;
+    font-weight: bold;
+}
+.mobile-timer .timer i{
+    margin-right: 10px;
+}
+.project-details .timer{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.project-details .timer i{
+    font-size: 24px;
+    margin-right: 10px;
+}
+.project-details h3{
+    margin-bottom: 30px;
+}
+.details-content{
+    margin-top: 52px;
+}
+.details-content p{
+    margin-bottom: 36px;
+}
+.project-details {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.project-details .card{
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 8px;
+    border: solid 1px #ece9df;
+}
+
+.project-details .card .title{
+    text-align: center;
+}
+.project-details .card .title span{
+    color: #A6C44F;
+}
+#gallery-slider .img-box img{
+    width: 426px;
+    height: 330px;
+    -o-object-fit: cover;
+       object-fit: cover;
+        border-radius: 8px;
+    border: solid 1px rgba(0, 0, 0, 0);
+}
+.project-details .c-one{
+    padding-top: 22px;
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+}
+.project-details .c-one .title{
+    padding-bottom: 20px;
+}
+.project-details .c-one ul li{
+    border-top: 1px solid #ece9df;
+    padding-top: 27px;
+    padding-bottom: 30px;
+}
+.project-details .c-one ul li .right{
+    font-size: 24px;
+    line-height: 32px;
+    color: #4A6D31;
+}
+.project-details .c-one ul .c-title .right{
+    font-size: 30px;
+    line-height: 40px;
+}
+.project-details .c-two{
+    padding-top: 37px;
+    padding-bottom: 42px;
+}
+.project-details .c-two .progress{
+    margin-top: 26px;
+    margin-bottom: 7px;
+    border-radius: 2px;
+    height: 4px !important;
+    background-color: #ece9df; 
+}
+.project-details .c-two .progress-bar{
+    border-radius: 2px;
+    background-color: #4A6D31; 
+}
+.project-details .c-two .prog-persent{
+   font-size: 14px; 
+}
+.project-details .btn{
+  padding: 18px 0px;
+  text-align: center;
+  border-radius: 29px;
+  box-shadow: 0 10px 20px 0 rgba(74, 109, 49, 0.3);
+  background-color: #4a6d31;
+  color: #fff;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.project-details .btn i{
+    margin-left: 10px;
+}
+/* ====================== project page end  ===================== */
+
+/* ====================== unser page start  ===================== */
+.f-two{
+    border-radius: 8px;
+    border: solid 1px rgba(0, 0, 0, 0);
+    margin-bottom: 60px;
+    width: 100%;
+}
+.unser-content{
+    margin-top: 100px;
+}
+.unser-content a{
+    padding: 15px 30px 16px;
+    border-radius: 29px;
+    box-shadow: 0 10px 20px 0 rgba(74, 109, 49, 0.3);
+    background-color: #4a6d31;
+    color: #fff;
+    margin-right: 30px;
+    margin-top: 40px;
+    display: block;
+}
+.unser-content a span{
+    margin-right: 10px;
+    display: inline-block;
+}
+.unser-content a:hover{
+    color: #fff;
+}
+/* ====================== project page end  ===================== */
+
+/* ====================== refer page start  ===================== */
+.refer-container{
+    padding-top: 120px;
+}
+.refer-content{
+    padding: 53px 0px 30px;
+    border-bottom: 1px solid #ece9df;
+}
+.refer-content .card h3{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.refer-content .qute img{
+    width: 30px;
+}
+.refer-content .qute{
+    position: relative;
+}
+.refer-content .qute img:last-child{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
+.refer-content .qute p{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-right: 34px;
+    padding-left: 34px;
+}
+.refer-content .card .up-title{
+    color: #a6c44f;
+    font-weight: bold;
+    margin-top: 24px;
+}
+.refer-content .card{
+    margin-top: 60px;
+    border: 1px solid #ECE9DF;
+    border-radius: 0px 0px 8px 8px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.refer-content h3{
+    margin-bottom: 30px;
+}
+/* ====================== refer page end  ===================== */
