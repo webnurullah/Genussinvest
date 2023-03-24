@@ -58,8 +58,10 @@
         --bs-gutter-y: 3.625rem;
     }
     .g-custom2{
-        --bs-gutter-x: 4.125rem;
-       
+        --bs-gutter-x: 4.125rem; 
+    }
+    .g-custom3{
+        --bs-gutter-x: 1rem; 
     }
 }
 
@@ -133,6 +135,9 @@
     .heading{
         max-width: 600px;
     }
+    .login-page .form-control{
+        width: 300px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -158,6 +163,9 @@
     }
     .header-section .list-inline-item:not(:last-child){
         margin-right: 40px;
+    }
+    .header-section{
+        padding: 20px 0px 0px;
     }
     h3, .h3{
         font-size: 20px;
@@ -269,6 +277,30 @@
         padding-right: 0px;
         padding-left: 0px;
     }
+
+    /* =========== login / reg / kontack ============ */
+    .sub-heading{
+        margin-top: 50px;
+    }
+
+    
+    .login-page .form-control{
+        width: 100%;
+    }
+    .login-page .mail {
+        margin-right: 0px;
+    }
+    .login-page .log-form-inner{
+        margin-bottom: 0px;
+        border-bottom: none;
+    }
+    .login-page .log-form-inner{
+        padding: 0px 0px 30px;
+    }
+    .common-layoute div{
+        margin-bottom: 15px;
+    }
+  
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -291,5 +323,8 @@
  
  
  
+}
+}
+}
 }
 }

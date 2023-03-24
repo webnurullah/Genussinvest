@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
 
-    
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+
+
   <!-- css -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <!-- normalize css -->
   <link rel="stylesheet" href="css/normalize.css">
-  
+
   <!-- Fontawesome icon -->
   <script src="https://kit.fontawesome.com/fcea059855.js" crossorigin="anonymous"></script>
 
-    <!-- owl carousel -->
-    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
 
 
   <!-- custome css -->
@@ -27,63 +28,150 @@
 
 
 </head>
+
 <body>
-    <div class="main-body">
-        <!-- header -->
-        <div class="header-section container-fluid">
-            <div class="dekstop-component">
-              <div class="header-logo text-center">
+  <div class="main-body">
+    <!-- ========================== header start ==============================-->
+    <div class="container-fluid">
+      <div class="header-section">
+        <div class="dekstop-component">
+          <div class="header-logo text-center">
+            <a href="uber.html"> <img src="images/header-logo.jpg" alt="logo" srcset=""></a>
+          </div>
+          <div class="bar-icon d-md-none">
+            <i type="button" data-bs-toggle="offcanvas" data-bs-target="#menuoffcave" aria-controls="menuoffcave"
+              class="fa-regular fa-bars"></i>
+          </div>
+
+          <div class="d-none d-md-block">
+            <div class="login-part d-flex justify-content-end">
+              <div class="btn-one">
+                <a class="active" href="register.html">
+                  <i class="fa-regular fa-pen-swirl"></i>
+                  <span>Neu Anmelden</span>
+                </a>
+              </div>
+              <div class="log-mid"></div>
+              <div class="login-btn">
+                <a class=""  href="login.html">
+                  <i class="fa-regular fa-arrow-right-to-arc"></i>
+                  <span>Login</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <nav class="dekstop-menu text-center d-none d-md-block">
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="" aria-current="page" href="uber.html">Über uns</a></li>
+              <li class="list-inline-item"><a class="" href="unser.html">Unser Angebot</a></li>
+              <li class="list-inline-item"><a class="" href="referenzer.html">Referenzen</a></li>
+              <li class="list-inline-item"><a class="" href="projektelist.html">Projekte</a></li>
+            </ul>
+            <div class="menu-line m-auto"></div>
+          </nav>
+
+        </div>
+        <div class="mobile-component d-md-none">
+          <div class="mobile-menu-box">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="menuoffcave" aria-labelledby="menuoffcaveLabel">
+
+              <button type="button" class="btn text-end btn-cls text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close">
+                <i class="fa-regular fa-xmark"></i>
+              </button>
+              <div class="mobile-header-logo text-center">
                 <img src="images/header-logo.jpg" alt="logo" srcset="">
               </div>
-              <div class="login-part d-flex justify-content-end">
-                <div class="btn-one">
-                  <a href="">
-                    <i class="fa-regular fa-pen-swirl"></i>
-                  <span>Neu Anmelden</span>
-                  </a>
-                </div>
-                <div class="log-mid"></div>
-                <div class="login-btn">
-                  <a href="">
-                    <i class="fa-regular fa-arrow-right-to-arc"></i>
-                    <span>Login</span>
-                  </a>
+              <div class="offcanvas-body">
+                <nav class="mobile-menu text-center">
+                  <ul class="list-unstyled">
+                    <li><a class="active" aria-current="page" href="uber.html">Über uns</a></li>
+                    <li><a class="" href="unser.html">Unser Angebot</a></li>
+                    <li><a class="" href="referenzer.html">Referenzen</a></li>
+                    <li><a class="" href="projektelist.html">Projekte</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="fix-mobile-log in-menu-screen">
+                <div class="container-fluid">
+                  <div class="d-flex justify-content-between ">
+                    <div class="login-part d-flex justify-content-end align-self-center">
+                      <div class="btn-one">
+                        <a href="register.html">
+                          <i class="fa-regular fa-pen-swirl"></i>
+                          <span>Neu Anmelden</span>
+                        </a>
+                      </div>
+                      <div class="log-mid"></div>
+                      <div class="login-btn">
+                        <a href="login.html">
+                          <i class="fa-regular fa-arrow-right-to-arc"></i>
+                          <span>Login</span>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- message box -->
+                    <div class="meassage-box">
+                      <i class="fa-solid fa-comments-question"></i>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <nav class="dekstop-menu text-center">
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a class=" text-decoration-none active" aria-current="page" href="">Über uns</a></li>
-                  <li class="list-inline-item"><a class=" text-decoration-none "href="">Unser Angebot</a></li>
-                  <li class="list-inline-item"><a class=" text-decoration-none "href="">Referenzen</a></li>
-                  <li class="list-inline-item"><a class=" text-decoration-none "href="">Projekte</a></li>
-                </ul>
-              </nav>
-              <div class="menu-line m-auto"></div>
             </div>
+          </div>
         </div>
-       
+      </div>
+    </div>
+    <div class="fix-mobile-log in-screen d-md-none">
+      <div class="container-fluid ">
+        <div class="d-flex justify-content-between ">
+          <div class="login-part d-flex justify-content-end align-self-center">
+            <div class="btn-one">
+              <a href="register.html">
+                <i class="fa-regular fa-pen-swirl"></i>
+                <span>Neu Anmelden</span>
+              </a>
+            </div>
+            <div class="log-mid"></div>
+            <div class="login-btn">
+              <a href="login.html">
+                <i class="fa-regular fa-arrow-right-to-arc"></i>
+                <span>Login</span>
+              </a>
+            </div>
+          </div>
+          <!-- message box -->
+          <div class="meassage-box">
+            <i class="fa-solid fa-comments-question"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========================== header End ========================= -->
+
+    <div class="page-inner reg-page">
 
 
-        <div class="container">
+        <div class="container container-md">
 
             <div class="heading text-center">
                 <img src="images/leef.jpg" alt="" class="leef">
                 <h1 class="title" >Neu Anmelden</h1>
                 <p class="sub-title">Registrieren Sie Ihren Betrieb</p>
-                <span class="line" ></span>
-               
+                <div class="line" ></div>
             </div>
 
 
-           <div class="c-head">
+           <div class="sub-heading">
             <i class="fa-regular fa-address-card"></i>
             <h3> Kontaktdaten</h3>
            </div>
 
         
-          <form action="">
-            <div class="row row-cols-md-3">
-               <div>
+          <form class="common-layoute" action="">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-custom3">
+               <div class="col" >
                     <label for="Anrede" class="form-label">Anrede *</label>
                     <select class="form-select" id="Anrede" aria-label="">
                         <option selected>Herr</option>
@@ -92,11 +180,11 @@
                         <option value="3">Three</option>
                     </select>
                </div>
-               <div>
+               <div class="col" >
                     <label for="Firmenbezeichnung" class="form-label">Firmenbezeichnung / Verein</label>
                     <input type="text" class="form-control" id="Firmenbezeichnung" placeholder="">
                </div>
-               <div>
+               <div class="col" >
                     <label for="Land" class="form-label">Land *</label>
                     <select class="form-select" id="Land" aria-label="">
                         <option selected>Deutschland</option>
@@ -105,120 +193,122 @@
                         <option value="3">Three</option>
                     </select>
                 </div>
-               
-         
-                <div>
+                <div class="col" >
                     <label for="Anschrift" class="form-label">Anschrift *</label>
                     <input type="text" class="form-control" id="Anschrift" placeholder="">
                 </div>
-                <div>
+                <div class="col" >
                     <label for="PLZ" class="form-label">PLZ *</label>
                     <input type="text" class="form-control" id="PLZ" placeholder="">
                 </div>
-                <div>
+                <div class="col" >
                     <label for="Stadt" class="form-label">Stadt *</label>
                     <input type="text" class="form-control" id="Stadt" placeholder="">
                 </div>
-                <div>
+                <div class="col" >
                     <label for="Inhaber" class="form-label">Inhaber / Vorstand *</label>
                     <input type="text" class="form-control" id="Inhaber" placeholder="">
                 </div>
-                <div>
+                <div class="col" >
                     <label for="Tel" class="form-label">Tel. *</label>
                     <input type="text" class="form-control" id="Tel" placeholder="Max">
                 </div>
-                <div>
+                <div class="col" >
                     <label for="Homepage" class="form-label">Homepage</label>
                     <input type="text" class="form-control" id="Homepage" placeholder="">
                 </div>
             </div>
-            <div class="row">
+            <div class="row g-custom3">
+               <div class="col">
                 <label for="Beschreibung" class="form-label">Beschreibung *</label>
-                <textarea class="form-control" id="Beschreibung" rows="8"></textarea>
+                <textarea class="form-control" id="Beschreibung" rows=""></textarea>
+               </div>
             </div>
 
 
 
             <!-- second part -->
-            <div class="c-head">
+            <div class="sub-heading">
                 <i class="fa-regular fa-leaf"></i>
                 <h3> Zugangsdaten</h3>
             </div>
-            <div class="row">
-                <div>
+            <div class="row row-cols-1 g-custom3">
+                <div class="col">
                     <label for="Titel" class="form-label">Titel *</label>
                     <input type="text" class="form-control" id="Titel" placeholder="Der Titel Ihres Projektes">
                 </div>
-                <div class="row">
+                <div class="col">
                     <label for="Beschreibung2" class="form-label">Beschreibung *</label>
-                    <textarea class="form-control" id="Beschreibung2" rows="8" placeholder="Vorhaben beschreiben - was wird gemacht?" ></textarea>
+                    <textarea class="form-control" id="Beschreibung2" rows="" placeholder="Vorhaben beschreiben - was wird gemacht?" ></textarea>
                 </div>
             </div>
             <!-- thard part -->
-            <div class="c-head">
+            <div class="sub-heading">
                 <i class="fa-regular fa-leaf"></i>
                 <h3> Zugangsdaten</h3>
             </div>
 
-            <div class="row">
-                <div>
+            <div class="row g-custom3">
+                <div class="col" >
                     <label for="Benutzername" class="form-label">Benutzername *</label>
                     <input type="text" class="form-control" id="Benutzername" placeholder="">
                 </div>
             </div>
-            <div class="row row-cols-3">
-                <div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-custom3">
+                <div class="col" >
                     <label for="Mail" class="form-label">E-Mail *</label>
-                    <input type="email" class="form-control" id="Mail" placeholder="Herr">
+                    <input type="email" class="form-control" id="Mail" placeholder="">
                 </div>
-                <div>
+                <div class="col" >
                     <label for="passowrd" class="form-label">Passwort *</label>
-                    <input type="password" class="form-control" id="passowrd" placeholder="Herr">
+                    <input type="password" class="form-control" id="passowrd" placeholder="">
                 </div>
-                <div>
+                <div class="col" >
                     <label for="cpassowrd" class="form-label">Passwort bestätigen *</label>
-                    <input type="password" class="form-control" id="cpassowrd" placeholder="Herr">
+                    <input type="password" class="form-control" id="cpassowrd" placeholder="">
                 </div>
             </div>
-            <button class="btn" type="submit">Jetzt Anmelden <i class="fa-regular fa-arrow-right"></i> </button>
+            <button class="btn btn-two" type="submit">
+              <span>Jetzt Anmelden</span> <i class="fa-regular fa-arrow-right"></i> </button>
           </form>
           
            
 
         </div>
 
-        <!-- footer -->
-        <div class="footer-section container-fluid">
-            <div class="arrow"></div>
-            <div class="logo" >
-            <span>GENUSSINVEST</span>
-            </div>
-            <div class="footer-nav">
-            <ul class="list-inline" >
-                <li class="list-inline-item" >© 2023 All rights reserved  </li>
-                <span>|</span>
-                <li class="list-inline-item" ><a href="">Impressum</a></li>
-                <span>|</span>
-                <li class="list-inline-item" ><a href="">Datenschutzerklärung </a></li>
-                <span>|</span>
-                <li class="list-inline-item" ><a href=""> Nutzungsbedingungen</a></li>
-            </ul>
-            </div>
-        </div>
-
+ 
+      </div>
+      <!--  ===================== end page inner ===================== -->
+  
+      <!-- =====================  footer start ================= -->
+      <div class="footer-section container-fluid">
+        <img class="footer-logo" src="images/logo-slider.jpg" alt="">
+        <ul class="footer-nav list-inline">
+          <li class="list-inline-item d-none d-md-inline-block">© 2023 All rights reserved </li>
+          <span class="d-none d-md-inline-block">|</span>
+          <li class="list-inline-item"><a href="">Impressum</a></li>
+          <span>|</span>
+          <li class="list-inline-item"><a href="">Datenschutzerklärung </a></li>
+          <span>|</span>
+          <li class="list-inline-item"><a href=""> Nutzungsbedingungen</a></li>
+        </ul>
+      </div>
+      <!-- =====================  footer end =================== -->
+  
+  
+  
     </div>
-
-
- <!-- jquery -->
-<script src="js/jquery.min.js"></script>
-
-<!-- owl carosuer -->
-<script src="owlcarousel/owl.carousel.min.js"></script>
-
-
-<!-- bootstrap js -->
-<script src="js/bootstrap.bundle.min.js"></script>
-<!-- custom js -->
-<script src="js/script.js"></script>
-</body>
-</html>
+    <!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+  
+    <!-- owl carosuer -->
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+  
+  
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+  
+  </html>

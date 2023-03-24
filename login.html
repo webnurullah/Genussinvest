@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
 
-    
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+
+
   <!-- css -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <!-- normalize css -->
   <link rel="stylesheet" href="css/normalize.css">
-  
+
   <!-- Fontawesome icon -->
   <script src="https://kit.fontawesome.com/fcea059855.js" crossorigin="anonymous"></script>
 
-    <!-- owl carousel -->
-    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
 
 
   <!-- custome css -->
@@ -27,107 +28,204 @@
 
 
 </head>
+
 <body>
-    <div class="main-body">
-        <!-- header -->
-        <div class="header-section container-fluid">
-            <div class="dekstop-component">
-              <div class="header-logo text-center">
+  <div class="main-body">
+    <!-- ========================== header start ==============================-->
+    <div class="container-fluid">
+      <div class="header-section">
+        <div class="dekstop-component">
+          <div class="header-logo text-center">
+            <a href="uber.html"> <img src="images/header-logo.jpg" alt="logo" srcset=""></a>
+          </div>
+          <div class="bar-icon d-md-none">
+            <i type="button" data-bs-toggle="offcanvas" data-bs-target="#menuoffcave" aria-controls="menuoffcave"
+              class="fa-regular fa-bars"></i>
+          </div>
+
+          <div class="d-none d-md-block">
+            <div class="login-part d-flex justify-content-end">
+              <div class="btn-one">
+                <a href="register.html">
+                  <i class="fa-regular fa-pen-swirl"></i>
+                  <span>Neu Anmelden</span>
+                </a>
+              </div>
+              <div class="log-mid"></div>
+              <div class="login-btn">
+                <a class="active"  href="login.html">
+                  <i class="fa-regular fa-arrow-right-to-arc"></i>
+                  <span>Login</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <nav class="dekstop-menu text-center d-none d-md-block">
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="" aria-current="page" href="uber.html">Über uns</a></li>
+              <li class="list-inline-item"><a class="" href="unser.html">Unser Angebot</a></li>
+              <li class="list-inline-item"><a class="" href="referenzer.html">Referenzen</a></li>
+              <li class="list-inline-item"><a class="" href="projektelist.html">Projekte</a></li>
+            </ul>
+            <div class="menu-line m-auto"></div>
+          </nav>
+
+        </div>
+        <div class="mobile-component d-md-none">
+          <div class="mobile-menu-box">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="menuoffcave" aria-labelledby="menuoffcaveLabel">
+
+              <button type="button" class="btn text-end btn-cls text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close">
+                <i class="fa-regular fa-xmark"></i>
+              </button>
+              <div class="mobile-header-logo text-center">
                 <img src="images/header-logo.jpg" alt="logo" srcset="">
               </div>
-              <div class="login-part d-flex justify-content-end">
-                <div class="btn-one">
-                  <a href="">
-                    <i class="fa-regular fa-pen-swirl"></i>
-                  <span>Neu Anmelden</span>
-                  </a>
-                </div>
-                <div class="log-mid"></div>
-                <div class="login-btn">
-                  <a href="">
-                    <i class="fa-regular fa-arrow-right-to-arc"></i>
-                    <span>Login</span>
-                  </a>
+              <div class="offcanvas-body">
+                <nav class="mobile-menu text-center">
+                  <ul class="list-unstyled">
+                    <li><a class="active" aria-current="page" href="uber.html">Über uns</a></li>
+                    <li><a class="" href="unser.html">Unser Angebot</a></li>
+                    <li><a class="" href="referenzer.html">Referenzen</a></li>
+                    <li><a class="" href="projektelist.html">Projekte</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="fix-mobile-log in-menu-screen">
+                <div class="container-fluid">
+                  <div class="d-flex justify-content-between ">
+                    <div class="login-part d-flex justify-content-end align-self-center">
+                      <div class="btn-one">
+                        <a href="register.html">
+                          <i class="fa-regular fa-pen-swirl"></i>
+                          <span>Neu Anmelden</span>
+                        </a>
+                      </div>
+                      <div class="log-mid"></div>
+                      <div class="login-btn">
+                        <a href="login.html">
+                          <i class="fa-regular fa-arrow-right-to-arc"></i>
+                          <span>Login</span>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- message box -->
+                    <div class="meassage-box">
+                      <i class="fa-solid fa-comments-question"></i>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <nav class="dekstop-menu text-center">
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a class=" text-decoration-none active" aria-current="page" href="">Über uns</a></li>
-                  <li class="list-inline-item"><a class=" text-decoration-none "href="">Unser Angebot</a></li>
-                  <li class="list-inline-item"><a class=" text-decoration-none "href="">Referenzen</a></li>
-                  <li class="list-inline-item"><a class=" text-decoration-none "href="">Projekte</a></li>
-                </ul>
-              </nav>
-              <div class="menu-line m-auto"></div>
             </div>
+          </div>
         </div>
-       
-
-
-        <div class="container">
-            <div class="heading text-center">
-                <img src="images/leef.jpg" alt="" class="leef">
-                <h1 class="title" >Login</h1>
-                <p class="sub-title">Melden Sie sich an</p>
-                <span class="line" ></span>
-               
+      </div>
+    </div>
+    <div class="fix-mobile-log in-screen d-md-none">
+      <div class="container-fluid ">
+        <div class="d-flex justify-content-between ">
+          <div class="login-part d-flex justify-content-end align-self-center">
+            <div class="btn-one">
+              <a href="register.html">
+                <i class="fa-regular fa-pen-swirl"></i>
+                <span>Neu Anmelden</span>
+              </a>
             </div>
-
-
-           <div class="c-head">
-            <i class="fa-regular fa-lock-keyhole"></i>
-            <h3> Zugangsdaten</h3>
-           </div>
-
-        
-          <form  action="">
-            <div class="log-form">
-                <div>
-                    <label for="Mail" class="form-label">E-Mail *</label>
-                    <input type="email" class="form-control" id="Mail" placeholder="Herr">
-                </div>
-                <div>
-                    <label for="passowrd" class="form-label">Passwort *</label>
-                    <input type="password" class="form-control" id="passowrd" placeholder="Herr">
-                </div>
-                   
+            <div class="log-mid"></div>
+            <div class="login-btn">
+              <a href="login.html">
+                <i class="fa-regular fa-arrow-right-to-arc"></i>
+                <span>Login</span>
+              </a>
             </div>
-            <button class="btn" type="submit">Senden <i class="fa-regular fa-arrow-right"></i> </button>
-          </form>
+          </div>
+          <!-- message box -->
+          <div class="meassage-box">
+            <i class="fa-solid fa-comments-question"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========================== header End ========================= -->
+
+    <div class="page-inner login-page">
+
+      <div class="container container-md">
+        <div class="heading text-center">
+          <img src="images/leef.jpg" alt="" class="leef">
+          <h1 class="title">Login</h1>
+          <p class="sub-title">Melden Sie sich an</p>
+          <div class="line"></div>
+
         </div>
 
-        <!-- footer -->
-        <div class="footer-section container-fluid">
-            <div class="arrow"></div>
-            <div class="logo" >
-            <span>GENUSSINVEST</span>
-            </div>
-            <div class="footer-nav">
-            <ul class="list-inline" >
-                <li class="list-inline-item" >© 2023 All rights reserved  </li>
-                <span>|</span>
-                <li class="list-inline-item" ><a href="">Impressum</a></li>
-                <span>|</span>
-                <li class="list-inline-item" ><a href="">Datenschutzerklärung </a></li>
-                <span>|</span>
-                <li class="list-inline-item" ><a href=""> Nutzungsbedingungen</a></li>
-            </ul>
-            </div>
+
+        <div class="sub-heading">
+          <i class="fa-regular fa-lock-keyhole"></i>
+          <h3> Zugangsdaten</h3>
         </div>
+
+
+        <form class="common-layoute" action="">
+          <div class="log-form-inner d-flex flex-column flex-md-row justify-content-center">
+            <div class="mail" >
+              <label for="Mail" class="form-label">E-Mail *</label>
+              <input type="email" class="form-control" id="Mail" placeholder="">
+            </div>
+            <div class="pass" >
+              <label for="passowrd" class="form-label">Passwort *</label>
+              <input type="password" class="form-control" id="passowrd" placeholder="">
+            </div>
+
+          </div>
+          <div class="d-flex justify-content-between " >
+            <button class="btn btn-two" type="submit">
+              <span>Senden</span>
+              <i class="fa-regular fa-arrow-right"></i>  
+            </button>
+            <a class="d-flex align-items-center forget" href="">
+                <i class="fa-regular fa-key-skeleton"></i>
+                <span>Passwort vergessen</span>
+            </a>
+            
+          </div>
+        </form>
+      </div>
 
     </div>
+    <!--  ===================== end page inner ===================== -->
+
+    <!-- =====================  footer start ================= -->
+    <div class="footer-section container-fluid">
+      <img class="footer-logo" src="images/logo-slider.jpg" alt="">
+      <ul class="footer-nav list-inline">
+        <li class="list-inline-item d-none d-md-inline-block">© 2023 All rights reserved </li>
+        <span class="d-none d-md-inline-block">|</span>
+        <li class="list-inline-item"><a href="">Impressum</a></li>
+        <span>|</span>
+        <li class="list-inline-item"><a href="">Datenschutzerklärung </a></li>
+        <span>|</span>
+        <li class="list-inline-item"><a href=""> Nutzungsbedingungen</a></li>
+      </ul>
+    </div>
+    <!-- =====================  footer end =================== -->
 
 
- <!-- jquery -->
-<script src="js/jquery.min.js"></script>
 
-<!-- owl carosuer -->
-<script src="owlcarousel/owl.carousel.min.js"></script>
+  </div>
+  <!-- jquery -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- owl carosuer -->
+  <script src="owlcarousel/owl.carousel.min.js"></script>
 
 
-<!-- bootstrap js -->
-<script src="js/bootstrap.bundle.min.js"></script>
-<!-- custom js -->
-<script src="js/script.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- custom js -->
+  <script src="js/script.js"></script>
 </body>
+
 </html>
