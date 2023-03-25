@@ -77,6 +77,9 @@
     .custom-container{
         max-width: 1140px;
     }
+    .unser-content{
+        margin-top: 60px;
+    }
 }
 
 
@@ -348,14 +351,10 @@
            object-fit: cover;
     }
  }
-    
-    
+@media (max-width: 400px) { 
+    #refer-slider .owl-stage{
+        margin-left: 16px;
+    }
  }
- 
- 
- 
-}
-}
-}
-}
-}
+    
+    
