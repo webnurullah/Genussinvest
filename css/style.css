@@ -75,7 +75,7 @@ h3, .h3{
 }
 /* ======================= headercss ==================== */
 .header-section{
-    padding: 30px 0px;
+    padding: 30px 0px 0px;
 }
 .header-logo img{
     margin-bottom: 70px;
@@ -183,7 +183,7 @@ h3, .h3{
     left: 0;
     bottom: 0px;
 }
-.fix-mobile-log .meassage-box{
+.meassage-box{
     width: 60px;
     height: 60px;
     background-color: #fff;
@@ -197,9 +197,35 @@ h3, .h3{
     bottom: 18px;
     cursor: pointer;
 }
-.fix-mobile-log i{
+.meassage-box i{
     color: #4A6D31;
     font-size: 27px;
+}
+.fix-message-box{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.fix-message-box .m-text{
+   margin-left: 16px;
+   font-size: 14px;
+   font-weight: bold;
+    opacity: 0;
+    width: 90px;
+    position: absolute;
+   
+}
+.fix-message-box .meassage-box{
+    transition: width .30s;
+}
+.fix-message-box:hover .meassage-box{
+    width: 210px;
+    transition: width .30s;
+}
+.fix-message-box:hover .m-text{
+    opacity: 1;
+    position: relative;
+    transition-delay: .1s;
 }
 /* ====================== page title ================ */
 .heading{
@@ -231,6 +257,7 @@ h3, .h3{
 }
 .heading .pera{
     margin-bottom: 0px;
+    max-width: 812px;
 }
 /*  ===================== page loute ================== */
 .page-inner{
@@ -376,7 +403,7 @@ h3, .h3{
 }
 .project-list-part .card-text,
 #refer-slider .card-text{
-    padding-top: 29px;
+    padding-top: 30px;
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 40px;
@@ -538,8 +565,7 @@ h3, .h3{
     color: #A6C44F;
 }
 #gallery-slider .img-box img{
-    width: 426px;
-    height: 330px;
+    max-width: 426px;
     -o-object-fit: cover;
        object-fit: cover;
         border-radius: 8px;
@@ -694,6 +720,7 @@ h3, .h3{
 .sub-heading h3{
     margin-left: 20px; 
     display: inline-block;
+    margin-bottom: 0px;
 }
 .common-layoute label{
     font-size: 14px;
@@ -780,4 +807,5 @@ h3, .h3{
 
 /* ====================== login page end  ===================== */
 /* ====================== login page end  ===================== */
+}* ====================== login page end  ===================== */
 }

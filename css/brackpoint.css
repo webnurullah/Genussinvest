@@ -1,38 +1,5 @@
 
-.container-fluid{
-    padding-right: 36px;
-    padding-left: 36px;
-}
-
-
-@media (min-width: 768px) {
-    .container-fluid{
-        max-width: 700px;
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-}
-@media (min-width: 992px) {
-    .container-fluid{
-        max-width: 900px;
-       
-    }
-   
-}
-@media (min-width: 1200px) {
-    .container-fluid{
-        max-width: 1140px;
-    }
-}
-@media (min-width: 1400px) {
-    .container-fluid{
-        max-width: 1340px;
-    }
-}
 @media (min-width: 1600px) {
-    .container-fluid{
-        max-width: 1440px;
-    }
     .container-md{
         max-width: 1226px;
         padding-right: 0px;
@@ -66,14 +33,17 @@
 }
 
 
-
-
-
+.custom-container{
+    max-width: 1640px;
+    margin: auto;
+}
 
 /* XX-Large devices (larger desktops, 1800px and up) */
 /* r18 */
-@media (max-width: 1800px) { 
-   
+@media (max-width: 1700px) { 
+    .custom-container{
+        max-width: 1540px;
+    }
 }
 
 
@@ -87,18 +57,25 @@
         --bs-gutter-x: 1.875rem;
         --bs-gutter-y: 1.875rem;
     }
+    .custom-container{
+        max-width: 1400px;
+    }
+    
 }
 
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 /* r14 */
-@media (max-width: 1400px) { 
+@media (max-width: 1440px) { 
     .header-section .list-inline-item:not(:last-child){
         margin-right: 80px;
     }
     .header-logo img {
         margin-bottom: 70px;
         width: 180px;
+    }
+    .custom-container{
+        max-width: 1140px;
     }
 }
 
@@ -115,11 +92,20 @@
     .card-info{
         width: 350px;
     }
+    .custom-container{
+        max-width: 940px;
+    }
+    .page-inner {
+        padding: 80px 0px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 /* r9 */
 @media (max-width: 992px) { 
+    .custom-container{
+        max-width: 750px;
+    }
     .header-section .list-inline-item:not(:last-child){
         margin-right: 50px;
     }
@@ -138,6 +124,7 @@
     .login-page .form-control{
         width: 300px;
     }
+    
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -148,6 +135,11 @@
         font-size: 18px;
         line-height: 27px;
         color: #151515;
+    }
+    .custom-container{
+        max-width: 100%;
+        margin-right: 36px;
+        margin-left: 36px;
     }
     .container-xxl{
         padding-right: 0px;
@@ -170,6 +162,18 @@
     h3, .h3{
         font-size: 20px;
     }
+    .login-part .btn-one span{
+        font-size: 14px;
+    }
+    .login-part .login-btn span{
+        font-size: 14px;
+    }
+    .fix-mobile-log i{
+        font-size: 18px;
+    }
+    .fix-mobile-log .meassage-box i{
+        font-size: 27px;
+    }
     .heading{
         max-width: 500px;
     }
@@ -177,7 +181,7 @@
         padding: 60px 0px;
     }
     .page-inner-two {
-        padding: 0px 0px 60px;
+        padding: 60px 0px 60px;
     }
     .heading .title{
         font-size: 24px;
@@ -200,15 +204,18 @@
     }
     .profile-section{
         padding-top: 20px;
-        padding-bottom: 30px;
+        padding-bottom: 60px;
     }
     .pera-content{
-        padding-top: 40px;
-        padding-bottom: 25px;
+        padding-top: 0px;
+        padding-bottom: 14px;
     }
     
     .link-section .link{
        font-size: 16px;
+    }
+    .link-section .link{
+        margin-bottom: 12px;
     }
     .footer-section .footer-nav{
         font-size: 14px;
@@ -237,7 +244,7 @@
         margin-bottom: 60px;
     }
     .unser-content{
-        margin-top: 40px;
+        margin-top: 35px;
     }
     .unser-content a{
         margin-top: 15px;
@@ -245,8 +252,7 @@
         margin-right: 0px;
     }
     .f-two{
-        margin-top: 60px;
-        margin-bottom: 30px;
+        margin-top: 0px;
         border-radius: 0px;
         border: none;
     }
@@ -267,23 +273,43 @@
         padding: 53px 0px 0px;
         border-bottom: none;
     }
+    .refer-content .qute p{
+        font-size: 20px;
+        text-align: center;
+    }
     #refer-slider .card{
         max-width: 358px;
     }
     #refer-slider .owl-stage{
         margin-left: 36px;
     }
+    #logo-slider .owl-stage{
+        margin-left: 36px;
+    }
+    .logo-slider-part{
+        margin-top: 14px;
+        margin-bottom: 60px;
+    }
+    }
     .ref-slider-part.container-xl{
         padding-right: 0px;
         padding-left: 0px;
     }
 
+    .project-list-part .card-text,
+    #refer-slider .card-text{
+        margin-bottom: 15px;
+    }
+    .project-list-part .card-body{
+        padding: 30px 25px 85px 25px;
+    }
     /* =========== login / reg / kontack ============ */
     .sub-heading{
         margin-top: 50px;
     }
-
-    
+    .sub-heading h3{
+        margin-left: 10px; 
+    }
     .login-page .form-control{
         width: 100%;
     }
@@ -300,8 +326,10 @@
     .common-layoute div{
         margin-bottom: 15px;
     }
-  
- }
+    .project-details {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
 
 /* Small devices (landscape phones, 576px and up) */
 /* r5 */
@@ -319,6 +347,9 @@
         -o-object-fit: cover;
            object-fit: cover;
     }
+ }
+    
+    
  }
  
  

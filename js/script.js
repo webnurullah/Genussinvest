@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('#logo-slider').owlCarousel({
-        loop:true,
         margin:18,
+        loop:true,
         nav:true,
         dots: false,
         autoWidth:true, 
@@ -10,15 +10,20 @@ $(document).ready(function(){
         responsive:{
             0:{
                 nav:false,
+                margin:30,
+                loop:false,
             },
             768:{
                 nav:false,
+                margin:30,
+                loop:false,
             },
             992:{
-                
+                nav:false,
+                loop:true,
             },
             1400:{
-                
+
             },
             1600:{
                
