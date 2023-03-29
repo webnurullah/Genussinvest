@@ -31,6 +31,11 @@ span{
     font-size: 18px;
     line-height: 24px;  
 }
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 h1, .h1
 {
     font-size: 30px;
@@ -42,7 +47,9 @@ h3, .h3{
     line-height: 30px;
     font-family: 'Patua One', cursive;
 }
-
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px !important;
+}
 /*  =============== bootstrap custom end  ===============*/
 
 .dekstop-component{
@@ -64,6 +71,7 @@ h3, .h3{
 .footer-section .footer-logo{
     margin-right: 60px;
     display: inline-block;
+    width: 177px;
 }
 .footer-section .footer-nav{
     display: inline-block;
@@ -205,6 +213,7 @@ h3, .h3{
     position: fixed;
     right: 30px;
     bottom: 30px;
+    z-index: 999;
 }
 .fix-message-box .m-text{
    margin-left: 16px;
@@ -333,6 +342,7 @@ h3, .h3{
 .contact-details a{
     display: inline-block;
     margin-left: 5px;
+    font-weight: bold;
 }
 .contact-details i{
     color: #4A6D31;
@@ -383,7 +393,7 @@ h3, .h3{
 #refer-slider.owl-theme button.owl-next {
     position: absolute;
     top: 50%;
-    right: -83px;
+    right: -80px;
     transform: translate(-50%, -50%);
     font-size: 18px;
 }
@@ -471,6 +481,7 @@ h3, .h3{
     margin-left: 10px;
 }
 .project-list-part .btn-box .card-link{
+    
     background: #4A6D31;
     box-shadow: 0px 10px 20px #4A6D3165;
     border-radius: 29px;
@@ -479,15 +490,18 @@ h3, .h3{
     line-height: 21px;
     font-weight: bold;
     color: #fff;
+    
 }
 .price-box .number{
     font-size: 14px;
     line-height: 19px;
+    font-weight: bold;
 }
 .price-box .price{
     font-size: 30px;
     line-height: 40px;
     color: #4a6d31;
+    font-family: 'Patua One', cursive;
 }
 .link-part{
     position: relative;
@@ -577,6 +591,7 @@ h3, .h3{
 .project-details .timer i{
     font-size: 24px;
     margin-right: 10px;
+    color: #4A6D31;
 }
 .project-details h3{
     margin-bottom: 30px;
@@ -597,12 +612,15 @@ h3, .h3{
     border-radius: 8px;
     border: solid 1px #ece9df;
 }
-
+.project-details .card .title h1{
+    font-family: 'Patua One', cursive;
+}
 .project-details .card .title{
     text-align: center;
 }
 .project-details .card .title span{
     color: #A6C44F;
+    font-weight: bold;
 }
 #gallery-slider .img-box img{
     max-width: 426px;
@@ -613,7 +631,7 @@ h3, .h3{
 }
 .project-details .c-one{
     padding-top: 22px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     margin-bottom: 30px;
 }
 .project-details .c-one .title{
@@ -628,6 +646,7 @@ h3, .h3{
     font-size: 24px;
     line-height: 32px;
     color: #4A6D31;
+    font-family: 'Patua One', cursive;
 }
 .project-details .c-one ul .c-title .right{
     font-size: 30px;
@@ -690,6 +709,7 @@ h3, .h3{
     margin-top: 40px;
     display: block;
 }
+
 .unser-content a span{
     margin-right: 10px;
     display: inline-block;
@@ -828,7 +848,7 @@ h3, .h3{
     margin-bottom: 60px;
 }
 .login-page .form-control{
-    width: 398px
+    width: 398px;
 }
 .login-page .mail{
     margin-right: 15px;
@@ -841,13 +861,9 @@ h3, .h3{
     display: inline-block;
     margin-right: 10px;
     font-size: 14px;
+    color: #4A6D31;
 }
 
 
 
 /* ====================== login page end  ===================== */
-/* ====================== login page end  ===================== */
-}* ====================== login page end  ===================== */
-}* ====================== login page end  ===================== */
-}* ====================== login page end  ===================== */
-}

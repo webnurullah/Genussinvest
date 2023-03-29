@@ -9,7 +9,7 @@ $(document).ready(function(){
         responsiveClass:true,
         responsive:{
             0:{
-                margin:20,              
+                margin:16,              
             },
             768:{
                 margin:20,              
@@ -45,8 +45,11 @@ $(document).ready(function(){
                 loop:false,
             },
             992:{
-                nav:false,
                 loop:true,
+                nav:false,
+            },
+            1200:{
+                nav:true,
             },
             1400:{
 
@@ -66,7 +69,7 @@ $(document).ready(function(){
         responsive:{
             0:{
                 autoWidth:true,
-                margin:20,
+                margin:16,
             },
             768:{
                 items:1,
@@ -89,22 +92,25 @@ $(document).ready(function(){
         responsive:{
             0:{
                 autoWidth:true,
-                nav:false,
+                margin:16,
+              
+            },
+            400:{
+                autoWidth:true,
                 margin:20,
             },
             768:{
                 items:2,
-                nav:false,
                 margin:20,
+              
             },
             992:{
                 items:2,
-                nav:false,
                 margin:30,
+               
             },
             1400:{
                 items:3,
-                nav:true,
             }
         }
     })
@@ -116,6 +122,10 @@ $(document).ready(function(){
         responsiveClass:true,
         responsive:{
             0:{
+                autoWidth:true,
+                margin:16,
+            },
+            400:{
                 autoWidth:true,
                 margin:20,
             },

@@ -60,13 +60,25 @@
     .custom-container{
         max-width: 1400px;
     }
-    
+    #logo-slider.owl-theme button.owl-prev, #refer-slider.owl-theme button.owl-prev {
+        left: -45px;
+    }
+    #logo-slider.owl-theme button.owl-next, #refer-slider.owl-theme button.owl-next {
+        right: -62px;
+    }
+  
 }
 
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 /* r14 */
 @media (max-width: 1440px) { 
+    #logo-slider.owl-theme button.owl-next, #refer-slider.owl-theme button.owl-next {
+        right: -48px;
+    }
+    #logo-slider.owl-theme button.owl-prev, #refer-slider.owl-theme button.owl-prev {
+        left: -30px;
+    }
     .header-section .list-inline-item:not(:last-child){
         margin-right: 80px;
     }
@@ -89,6 +101,7 @@
     .project-index-section{
         margin: 100px 0px 80px;
     }
+   
 }
 
 
@@ -110,6 +123,10 @@
     .page-inner {
         padding: 80px 0px;
     }
+    .slider-line {
+        margin-top: 90px;
+    }
+  
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -139,6 +156,9 @@
     #hero-slider.owl-carousel .owl-stage {
         margin-left: 40px;
     } 
+    #gallery-slider .img-box img{
+        width: 220px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -150,6 +170,7 @@
         line-height: 27px;
         color: #151515;
     }
+    
     .custom-container{
         max-width: 100%;
         margin-right: 36px;
@@ -172,6 +193,12 @@
     }
     .header-section{
         padding: 20px 0px 0px;
+    }
+    #logo-slider.owl-theme button.owl-next, #refer-slider.owl-theme button.owl-next {
+        right: 0px;
+    }
+    #logo-slider.owl-theme button.owl-prev, #refer-slider.owl-theme button.owl-prev {
+        left: 20px;
     }
     h1, .h1
     {
@@ -254,7 +281,7 @@
     }
     #gallery-slider .img-box img{
         width: 358px;
-        height: 277px;
+        height: auto;
     }
     .card-info{
         width: 100%;
@@ -317,7 +344,9 @@
         padding-right: 0px;
         padding-left: 0px;
     }
-
+    .slider-line {
+        margin-top: 60px;
+    }
     .project-list-part .card-text,
     #refer-slider .card-text{
         margin-bottom: 15px;
@@ -381,6 +410,9 @@
         padding-right: 0px !important;
         padding-left: 0px !important;
     }
+    .footer-section span{
+        font-size: 14px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -388,6 +420,9 @@
 @media (max-width: 576px) { 
     .heading{
         max-width: 358px;
+    }
+    .project-details .c-one ul li .left{
+        font-size: 16px;
     }
  }
 /* Smaller devices (landscape phones, 576px and up) */
@@ -399,10 +434,73 @@
         -o-object-fit: cover;
            object-fit: cover;
     }
+    #gallery-slider .img-box img {
+        width: 250px;
+    }
  }
 @media (max-width: 400px) { 
-    #refer-slider .owl-stage{
-        margin-left: 16px;
+    h1, .h1 {
+        font-size: 22px;
+    }
+    
+    .unser-content a span{
+        margin-right: 5px;
+        font-size: 16;
+    }
+    .project-details .btn span{
+        font-size: 16px;
+    }
+    .project-details .btn i{
+        margin-left: 5px;
+    }
+    .footer-section .footer-nav{
+        font-size: 11px;
+    }
+    .btn span{
+        font-size: 16px;
+    }
+    .footer-section span{
+        font-size: 12px;
+    }
+    #refer-slider .card{
+        max-width: auto;
+    }
+    #refer-slider .card {
+        max-width: 310px;
+    }
+    .project-index-section .card {
+        width: 310px;
+    }
+    .heading .title {
+        font-size: 22px;
+    }
+    .hero-slider-section .box-body {
+        width: 300px;
+        min-height: 280px;
+        margin: 30px 0px 20px;
+        padding: 16px 16px 16px;
+    }
+   
+ } 
+@media (max-width: 361px) { 
+   
+    .footer-section .footer-nav{
+        font-size: 10px;
+    }
+    .footer-section span{
+        font-size: 10px;
+    }
+    .project-index-section .card {
+        width: 280px;
+    }
+    #refer-slider .card {
+        max-width: 280px;
+    }
+    .btn span {
+        font-size: 12px;
+    }
+    .hero-slider-section .box-body {
+        width: 280px;
     }
  } 
 
