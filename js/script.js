@@ -1,4 +1,30 @@
+
 $(document).ready(function(){
+    $('#hero-slider').owlCarousel({
+        margin:48,
+        loop:false,
+        nav:false,
+        dots: false,
+        autoWidth:true, 
+        responsiveClass:true,
+        responsive:{
+            0:{
+                margin:20,              
+            },
+            768:{
+                margin:20,              
+            },
+            992:{
+                margin:30,              
+            },
+            1400:{
+                margin:40,   
+            },
+            1600:{
+               
+            }
+        }
+    })
     $('#logo-slider').owlCarousel({
         margin:18,
         loop:true,
@@ -79,6 +105,30 @@ $(document).ready(function(){
             1400:{
                 items:3,
                 nav:true,
+            }
+        }
+    })
+    $('#index-project-slider').owlCarousel({
+        loop:false,
+        margin:46,
+        nav:false,
+        dots: false,  
+        responsiveClass:true,
+        responsive:{
+            0:{
+                autoWidth:true,
+                margin:20,
+            },
+            768:{
+                items:2,
+                margin:20,
+            },
+            992:{
+                items:2,
+                margin:30,
+            },
+            1400:{
+                items:3,
             }
         }
     })

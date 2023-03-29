@@ -29,8 +29,7 @@ a:hover{
 }
 span{
     font-size: 18px;
-    line-height: 24px;
-   
+    line-height: 24px;  
 }
 h1, .h1
 {
@@ -43,6 +42,7 @@ h3, .h3{
     line-height: 30px;
     font-family: 'Patua One', cursive;
 }
+
 /*  =============== bootstrap custom end  ===============*/
 
 .dekstop-component{
@@ -266,6 +266,47 @@ h3, .h3{
 .page-inner-two{
     padding:60px 0px 120px;
 }
+/* ====================== index page ===================== */
+#hero-slider.owl-carousel .owl-stage{
+    margin: auto;
+}
+.hero-slider-section .box-body{
+    border-radius: 8px;
+    background-color: #c7db83;
+    width: 536px;
+    min-height: 330px;
+    padding: 0px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 36px 0px 25px;
+    text-align: center;
+}
+.hero-slider-section .box-body h1{
+    font-family: 'Patua One', cursive;
+}
+.hero-slider-section .box-body span{
+    font-size: 20px;
+    line-height: 27px;
+    margin: 6px 0px  24px;
+    font-weight: bold;
+    
+}
+.hero-slider-section .box-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-slider-section .box-footer span{
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: bold;
+    
+}
+.project-index-section{
+    margin: 120px 0px;
+}
 /* ====================== uberpage ===================== */
 .profile-section{
    padding-top: 105px;
@@ -386,14 +427,13 @@ h3, .h3{
     color: #A4C252;
 }
 #refer-slider {
-    padding-right: 12px;
-    padding-left: 12px;
     margin-top: 50px;
-    margin-bottom: 120px;
+   
 }
 .slider-line{
     background-color: #ece9df;
     height: 1px;
+    margin-top: 120px;
 }
 .project-list-part .card-body{
     padding: 30px 30px 110px 30px;
@@ -807,5 +847,7 @@ h3, .h3{
 
 /* ====================== login page end  ===================== */
 /* ====================== login page end  ===================== */
+}* ====================== login page end  ===================== */
+}* ====================== login page end  ===================== */
 }* ====================== login page end  ===================== */
 }
