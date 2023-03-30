@@ -636,6 +636,15 @@ h3, .h3{
 }
 .project-details .c-one .title{
     padding-bottom: 20px;
+    position: relative;
+}
+.project-details .c-one .title .info{
+    position: absolute;
+    right: 00px;
+    top: 5px;
+}
+.project-details .c-one .title .info i{
+    color: #4A6D31;
 }
 .project-details .c-one ul li{
     border-top: 1px solid #ece9df;
