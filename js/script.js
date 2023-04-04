@@ -85,32 +85,38 @@ $(document).ready(function(){
     $('#refer-slider').owlCarousel({
         loop:false,
         margin:46,
-        nav:true,
+        nav:false,
         dots: false,  
         navText : ["<i class='fa-regular fa-arrow-left-long'></i>","<i class='fa-regular fa-arrow-right-long'></i>"],   
         responsiveClass:true,
         responsive:{
             0:{
+                nav:false,
                 autoWidth:true,
                 margin:16,
               
             },
             400:{
+                nav:false,
                 autoWidth:true,
                 margin:20,
             },
             768:{
-                items:2,
+                nav:false,
+                autoWidth:true,
                 margin:20,
               
             },
             992:{
-                items:2,
+                nav:false,
+                autoWidth:true,
                 margin:30,
                
             },
-            1400:{
+            1401:{
+                nav:true,
                 items:3,
+                margin:30,
             }
         }
     })
@@ -130,15 +136,16 @@ $(document).ready(function(){
                 margin:20,
             },
             768:{
-                items:2,
+                autoWidth:true,
                 margin:20,
             },
             992:{
-                items:2,
+                autoWidth:true,
                 margin:30,
             },
-            1400:{
+            1401:{
                 items:3,
+                margin:30,
             }
         }
     })

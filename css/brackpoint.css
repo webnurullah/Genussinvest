@@ -37,6 +37,14 @@
     max-width: 1640px;
     margin: auto;
 }
+.custom-container-two{
+    max-width: 1338px;
+    margin: auto;
+}
+
+#index-project-slider .card, #refer-slider .card{
+    width: 414px;
+}
 
 /* XX-Large devices (larger desktops, 1800px and up) */
 /* r18 */
@@ -74,10 +82,10 @@
 /* r14 */
 @media (max-width: 1440px) { 
     #logo-slider.owl-theme button.owl-next, #refer-slider.owl-theme button.owl-next {
-        right: -48px;
+        right: -40px;
     }
     #logo-slider.owl-theme button.owl-prev, #refer-slider.owl-theme button.owl-prev {
-        left: -30px;
+        left: -22px;
     }
     .header-section .list-inline-item:not(:last-child){
         margin-right: 80px;
@@ -101,13 +109,28 @@
     .project-index-section{
         margin: 100px 0px 80px;
     }
+  
    
 }
-
+@media (max-width:1400px) {
+    .custom-container-two{
+        max-width: 100%;
+        margin: 0;
+    }
+    #refer-slider.owl-carousel .owl-stage,
+    #index-project-slider.owl-carousel .owl-stage{
+        margin-left: 50px;
+    }
+  
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
 /* r12 */
 @media (max-width: 1200px) { 
+    #refer-slider.owl-carousel .owl-stage,
+    #index-project-slider.owl-carousel .owl-stage{
+        margin-left: 36px;
+    }
     .header-section .list-inline-item:not(:last-child){
         margin-right: 60px;
     }
@@ -158,6 +181,9 @@
     } 
     #gallery-slider .img-box img{
         width: 220px;
+    }
+    #index-project-slider .card, #refer-slider .card{
+        width: 380px;
     }
 }
 
@@ -322,10 +348,10 @@
         font-size: 20px;
         text-align: center;
     }
-    #refer-slider .card{
+    #index-project-slider .card, #refer-slider .card{
         max-width: 358px;
     }
-    #refer-slider .owl-stage{
+    #index-project-slider .owl-stage, #refer-slider .owl-stage{
         margin-left: 36px;
     }
     #logo-slider .owl-stage{
@@ -462,14 +488,9 @@
     .footer-section span{
         font-size: 12px;
     }
-    #refer-slider .card{
-        max-width: auto;
-    }
-    #refer-slider .card {
+ 
+    #index-project-slider .card, #refer-slider .card {
         max-width: 310px;
-    }
-    .project-index-section .card {
-        width: 310px;
     }
     .heading .title {
         font-size: 22px;
@@ -493,7 +514,7 @@
     .project-index-section .card {
         width: 280px;
     }
-    #refer-slider .card {
+    #index-project-slider .card, #refer-slider .card {
         max-width: 280px;
     }
     .btn span {
